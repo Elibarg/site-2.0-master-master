@@ -1,0 +1,182 @@
+.texto1
+    {
+    position: absolute;
+    color: white;
+    top: 350px; 
+    left: 750px;
+    width: 350px;
+    animation: bounceOut 2s ;
+    }
+    .titulo
+    {
+        position: absolute;
+        top: 20px;
+        left: 550px;
+        animation: rubberBand 2s;
+}
+        
+    
+    .discneymar
+    {
+        position: absolute;
+        top: 350px; 
+        left: 550px;  
+        animation: bounceOut 2s;
+    }
+    .titulo2
+    {
+    position: absolute;
+    top: 135px;
+    left: 625px;
+    animation: rubberBand 2s;
+  }
+   
+   .planeta
+   {
+       position: absolute;
+       height: 50px;
+       left: 999px;
+       top: 125px;
+       animation: anima_planeta 10s infinite alternate;
+       animation-delay: 2s;
+   }
+
+        @keyframes anima_planeta 
+        {
+            0%   { top: 125px   }
+            50%  { top: 200px; }
+            100% { top: 120px;  }   
+        }
+
+   .planeta2
+   {
+       position: absolute;
+       height: 50px;
+       left: 525px;
+       top: 125px;  
+       animation: anima_planeta2 10s infinite alternate;
+       animation-delay: 2s;
+       
+   }
+
+   @keyframes anima_planeta2
+        {
+            0%   { top: 125px   }
+            50%  { top: 200px; }
+            100% { top: 120px;  } 
+
+
+        } 
+
+   .disquete
+   {
+       position: absolute;
+       height: 100px;
+       left: 350px;
+       top: 425px;
+       animation: anima_disquete 10s infinite alternate;
+       animation-delay: 2s;
+    
+   }
+   @keyframes anima_disquete 
+   {
+           0%   { rotate: 0deg; }
+           100% { rotate: 1000deg;  } 
+           0%   { left: 350px; }
+           50%  { left: 150px;  top: 400px; }
+           100% { left: 250px;  top: 120px;  } 
+           
+   }
+
+
+   .disquete2
+   {
+       position: absolute;
+       height: 100px;
+       left: 1125px;
+       top: 425px;
+       animation: anima_disquete2 10s infinite alternate;
+       animation-delay: 2s;
+    
+   }
+
+   @keyframes anima_disquete2 
+   {
+            0%   { rotate: 0deg; }
+           100% { rotate: 1000deg;  }
+           0%   { left: 1125px; }
+           50%  { left:  1150px;  top: 400px; }
+           100% { left:  1250px;  top: 120px;  }      
+   }
+   
+   footer {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 90%; 
+    line-height: 100px;
+    top: 570px;
+   
+  }
+
+  table, th, td {
+    border:px solid rgb(255, 255, 255);
+  }
+
+  a:link {
+    color: rgb(253, 253, 253);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+ .Barra
+ {
+ position: absolute; 
+  left: 400px;
+  top: 650px;
+ }
+ .Barra2
+ {
+ position: absolute; 
+  left: 100px;
+  top: 650px;
+ }
+ .Barra3
+ {
+ position: absolute; 
+  left: 700px;
+  top: 650px;
+ } 
+ .Barra4
+ {
+ position: absolute; 
+  left: 400px;
+  top: 675px;
+ } 
+ .Barra5
+ {
+ position: absolute; 
+  left: 100px;
+   top: 675px;
+ } 
+ .Barra6
+ {
+ position: absolute; 
+  left: 700px;
+   top: 675px;
+ } 
