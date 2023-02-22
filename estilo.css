@@ -1,13 +1,5 @@
-.texto1
-    {
-    position: absolute;
-    color: white;
-    top: 350px; 
-    left: 750px;
-    width: 350px;
-    animation: bounceIn 2s ;
+
     
-    }
     .titulo
     {
         position: absolute;
@@ -128,70 +120,3 @@
     top: 570px;
     animation: bounceIn 2s;
   }
-
-  table, th, td {
-    border:px solid rgb(255, 255, 255);
-  }
-
-  a:link {
-    color: rgb(253, 253, 253);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:visited {
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:hover {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  a:active {
-    color: white;
-    background-color: transparent;
-    text-decoration: underline;
-  }
- .Barra
- {
- position: absolute; 
-  left: 400px;
-  top: 650px;
-  animation: bounceIn 2s;
- }
- .Barra2
- {
- position: absolute; 
-  left: 100px;
-  top: 650px;
-  animation: bounceIn 2s;
- }
- .Barra3
- {
- position: absolute; 
-  left: 700px;
-  top: 650px;
-  animation: bounceIn 2s;
- } 
- .Barra4
- {
- position: absolute; 
-  left: 400px;
-  top: 675px;
-  animation: bounceIn 2s;
- } 
- .Barra5
- {
- position: absolute; 
-  left: 100px;
-   top: 675px;
-   animation: bounceIn 2s;
- } 
- .Barra6
- {
- position: absolute; 
-  left: 700px;
-   top: 675px;
-   animation: bounceIn 2s;
- } 
