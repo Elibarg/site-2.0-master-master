@@ -1,94 +1,65 @@
 
-    
-    .titulo
+.titulo
     {
         position: absolute;
         top: 20px;
         left: 550px;
-        animation: rubberBand 2s;
-        animation: bounceIn 4s;
-
-}
+        animation: rubberBand 4s;
+        animation: bounceInDown 4s;
         
+}
+    
+        .titulo2
+        {
+        position: absolute;
+        top: 135px;
+        left: 625px;
+        animation: rubberBand 5s;
+        animation: bounceInUp 5s;
+
+        }
     
     .discneymar
     {
         position: absolute;
         top: 350px; 
         left: 499px;  
-        animation: bounceIn 2s;
-      
+        animation: bounceIn 3s;
+        
     }
-    .titulo2
-    {
-    position: absolute;
-    top: 135px;
-    left: 625px;
-    animation: rubberBand 2s;
-    animation: bounceIn 4s;
-
-  }
    
-   .planeta
-   {
-       position: absolute;
-       height: 50px;
-       left: 999px;
-       top: 125px;
-       animation: anima_planeta 10s infinite alternate;
-       animation-delay: 2s;
-  
-   }
-
-        @keyframes anima_planeta 
-        {
-            0%   { top: 125px   }
-            50%  { top: 200px; }
-            100% { top: 120px;  }   
-        }
-
-   .planeta2
-   {
-       position: absolute;
-       height: 50px;
-       left: 525px;
-       top: 125px;  
-       animation: anima_planeta2 10s infinite alternate;
-       animation-delay: 2s;
-      
-       
-   }
-
-   @keyframes anima_planeta2
-        {
-            0%   { top: 125px   }
-            50%  { top: 200px; }
-            100% { top: 120px;  } 
-
-
-        } 
-
+    .planeta
+    {
+        position: absolute;
+        height: 50px;
+        left: 999px;
+        top: 125px;
+        animation: bounceIn 4s;
+        animation: anima_planeta 10s infinite alternate;
+        animation-delay: 2s;
+        animation: bounceIn 4s;
+        animation: fadeInRightBig 2s;
+    }
+   
+    .planeta2
+    {
+        position: absolute;
+        height: 50px;
+        left: 525px;
+        top: 125px;  
+        animation: anima_planeta2 10s infinite alternate;
+        animation-delay: 2s;
+        animation: fadeInLeftBig 2s;
+        
+    }
    .disquete
    {
        position: absolute;
        height: 100px;
        left: 350px;
        top: 425px;
-       animation: anima_disquete 10s infinite alternate;
-       animation-delay: 2s;
-       
-    
+       animation: fadeInLeftBig 2s;
    }
-   @keyframes anima_disquete 
-   {
-           0%   { rotate: 0deg; }
-           100% { rotate: 1000deg;  } 
-           0%   { left: 350px; }
-           50%  { left: 150px;  top: 400px; }
-           100% { left: 250px;  top: 120px;  } 
-           
-   }
-
 
    .disquete2
    {
@@ -96,27 +67,6 @@
        height: 100px;
        left: 1125px;
        top: 425px;
-       animation: anima_disquete2 10s infinite alternate;
-       animation-delay: 2s;
-       
-   }
-
-   @keyframes anima_disquete2 
-   {
-            0%   { rotate: 0deg; }
-           100% { rotate: 1000deg;  }
-           0%   { left: 1125px; }
-           50%  { left:  1150px;  top: 400px; }
-           100% { left:  1250px;  top: 120px;  }      
+       animation: fadeInRightBig 2s;
    }
    
-   footer {
-    padding: 50px;
-    text-align: center;
-    color: white;
-    position: absolute;
-    width: 90%; 
-    line-height: 100px;
-    top: 570px;
-    animation: bounceIn 2s;
-  }
